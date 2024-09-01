@@ -1,0 +1,40 @@
+{
+	"schemaVersion": 1,
+	"id": "mischief",
+	"version": "${version}",
+	"name": "Mischief",
+	"description": "Mischief Mod with some fun stuff",
+	"authors": [
+		"Wibeau"
+	],
+	"contact": {
+		"homepage": "https://fabricmc.net/",
+		"sources": "https://github.com/FabricMC/fabric-example-mod"
+	},
+	"license": "MIT",
+	"icon": "assets/mischief/icon.png",
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+			"net.wibeau.mischief.Mischief"
+		],
+		"fabric-datagen": [
+			"net.wibeau.mischief.MischiefDataGenerator"
+		],
+		"client": [
+			"net.wibeau.mischief.MischiefClient"
+		]
+	},
+	"mixins": [
+		"mischief.mixins.json"
+	],
+	"depends": {
+		"fabricloader": ">=0.16.3",
+		"minecraft": "~1.21.1",
+		"java": ">=21",
+		"fabric-api": "*"
+	},
+	"suggests": {
+		"another-mod": "*"
+	}
+}
