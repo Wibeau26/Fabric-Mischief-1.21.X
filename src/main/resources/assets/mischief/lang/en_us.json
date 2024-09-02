@@ -1,4 +1,11 @@
 {
   "item.mischief.cotton": "Cotton",
-  "item.mischief.compacted_cotton": "Compacted Cotton"
+  "item.mischief.compacted_cotton": "Compacted Cotton",
+  "item.mischief.cotton_shard": "Cotton Shard",
+
+  "block.mischief.cotton_block": "Block of Cotton",
+  "block.mischief.qc_block": "Bloc Québécois",
+  "block.mischief.enhanced_cotton_block": "Enhanced Block of Cotton",
+
+  "itemgroup.mischief.mischief_items": "Mischief Items"
 }
