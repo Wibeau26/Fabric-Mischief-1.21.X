@@ -17,10 +17,10 @@ public class ModBlocks {
             new Block(AbstractBlock.Settings.create().strength(0.7f).sounds(BlockSoundGroup.WOOL)));
 
     public static final Block QC_Block = registerBlock("qc_block",
-            new Block(AbstractBlock.Settings.create().strength(4f).requiresTool().sounds(BlockSoundGroup.BASALT)));
+            new Block(AbstractBlock.Settings.create().strength(8f).requiresTool().sounds(BlockSoundGroup.STONE)));
 
     public static final Block Enhanced_Cotton_Block = registerBlock("enhanced_cotton_block",
-            new Block(AbstractBlock.Settings.create().strength(2f).requiresTool().sounds(BlockSoundGroup.WOOL)));
+            new Block(AbstractBlock.Settings.create().strength(5f).requiresTool().sounds(BlockSoundGroup.AMETHYST_BLOCK)));
 
     private static Block registerBlock(String name, Block block) {
         registerBlockItem(name, block);

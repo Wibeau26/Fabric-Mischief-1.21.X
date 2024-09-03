@@ -22,6 +22,7 @@ public class ModItemGroups {
                         entries.add(ModBlocks.Cotton_Block);
                         entries.add(ModItems.Cotton_Shard);
                         entries.add(ModBlocks.Enhanced_Cotton_Block);
+                        entries.add(ModItems.Unrefined_Cotton_Shard);
 
                     }).build());
 
