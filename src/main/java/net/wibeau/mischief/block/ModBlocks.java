@@ -11,6 +11,7 @@ import net.minecraft.registry.Registry;
 import net.minecraft.sound.BlockSoundGroup;
 import net.minecraft.util.Identifier;
 import net.wibeau.mischief.Mischief;
+import net.wibeau.mischief.block.custom.CottonCompacterBlock;
 
 public class ModBlocks {
     public static final Block Cotton_Block = registerBlock("cotton_block",
@@ -21,6 +22,9 @@ public class ModBlocks {
 
     public static final Block Enhanced_Cotton_Block = registerBlock("enhanced_cotton_block",
             new Block(AbstractBlock.Settings.create().strength(5f).requiresTool().sounds(BlockSoundGroup.AMETHYST_BLOCK)));
+
+    public static final Block Cotton_Compacter = registerBlock("cotton_compacter",
+            new CottonCompacterBlock(AbstractBlock.Settings.create().strength(1f).sounds(BlockSoundGroup.AMETHYST_BLOCK)));
 
     private static Block registerBlock(String name, Block block) {
         registerBlockItem(name, block);

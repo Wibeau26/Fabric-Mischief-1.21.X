@@ -3,10 +3,14 @@
   "item.mischief.compacted_cotton": "Compacted Cotton",
   "item.mischief.cotton_shard": "Cotton Shard",
   "item.mischief.unrefined_cotton_shard": "Unrefined Cotton Shard",
+  "item.mischief.cotton_ore": "Cotton Ore",
+
+  "item.mischief.cotton_bag": "Cotton Bag",
 
   "block.mischief.cotton_block": "Block of Cotton",
   "block.mischief.qc_block": "Bloc Québécois",
   "block.mischief.enhanced_cotton_block": "Enhanced Block of Cotton",
+  "block.mischief.cotton_compacter": "Cotton Refiner",
 
   "itemgroup.mischief.mischief_items": "Mischief Items"
 }

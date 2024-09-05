@@ -23,6 +23,9 @@ public class ModItemGroups {
                         entries.add(ModItems.Cotton_Shard);
                         entries.add(ModBlocks.Enhanced_Cotton_Block);
                         entries.add(ModItems.Unrefined_Cotton_Shard);
+                        entries.add(ModItems.Cotton_Bag);
+                        entries.add(ModBlocks.Cotton_Compacter);
+                        entries.add(ModItems.Cotton_Ore);
 
                     }).build());
 

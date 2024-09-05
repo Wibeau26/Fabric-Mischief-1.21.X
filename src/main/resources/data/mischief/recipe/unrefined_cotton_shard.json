@@ -5,9 +5,9 @@
   "experience": 100,
   "group": "cotton_shard",
   "ingredient": {
-    "item": "mischief:unrefined_cotton_shard"
+    "item": "mischief:cotton_ore"
   },
   "result": {
-    "id": "mischief:cotton_shard"
+    "id": "mischief:unrefined_cotton_shard"
   }
 }
